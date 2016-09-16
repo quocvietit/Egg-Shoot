@@ -1,5 +1,5 @@
 
-                                                              Game Egg Shoot
+#Game Egg Shoot
 #I.Giới thiệu ứng dụng.
 Với sự phát triển của smartphone - điện thoại thông minh xu hướng phát hành các ứng dụng trên smartphone rất phát triển và đa dạng đáp ứng nhu cầu thiết thực cho người dùng đặc biệt là lĩnh vực giải trí. Game là một thể loại nhiều người yêu thích . Game bắn trứng là thể loại game cổ điển với lối chơi đơn giản, không cầu kỳ về hình thức mang tính giải trí cao nên được số lượng người chơi đông và phổ biến.
 
