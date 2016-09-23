@@ -1,0 +1,24 @@
+create database EggShoot
+use EggShoot
+
+--Tao bang
+create table Diem( 
+	id int not null primary key,
+	ten nvarchar(50) null,
+	diem int not null,
+)
+
+-- Cap nhat
+update Diem
+set ten ='NULL', diem = 0
+where id=1
+
+update Diem
+set ten ='NULL', diem = 0
+where id=2
+
+
+
+-- Tìm
+select ten, Diem
+from Diem
