@@ -8,6 +8,35 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
     tools:context=".PlayMode">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CỔ ĐIỂN"
+        android:id="@+id/button_CoDien"
+        android:width="150dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:background="@drawable/border__radius"
+        android:textColor="@color/colorTextButton"
+        android:textColorLink="@color/colorTextButtonLink" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THỜI GIAN"
+        android:id="@+id/button_ThoiGian"
+        android:width="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button_CoDien"
+        android:layout_alignStart="@+id/button_CoDien"
+        android:layout_marginBottom="97dp"
+        android:textSize="25dp"
+        android:textColorLink="@color/colorTextButtonLink"
+        android:textColor="@color/colorTextButton"
+        android:background="@drawable/border__radius" />
 </RelativeLayout>
