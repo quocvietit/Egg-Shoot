@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
     tools:context="com.example.newworld.eggshoot.PlayMode">
 
     <Button
@@ -16,7 +17,12 @@
         android:text="CỔ ĐIỂN"
         android:id="@+id/button_CoDien"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/button_radius"
+        android:width="150dp"
+        android:textColor="@color/colorButtonText"
+        android:textSize="25dp" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -24,7 +30,12 @@
         android:layout_height="wrap_content"
         android:text="THỜI GIAN"
         android:id="@+id/button_ThoiGian"
-        android:layout_marginTop="81dp"
+        android:layout_marginTop="100dp"
         android:layout_below="@+id/button_CoDien"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_radius"
+        android:width="150dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorButtonText" />
 </RelativeLayout>

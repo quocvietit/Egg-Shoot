@@ -30,6 +30,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent play_mode = new Intent(Menu.this,PlayMode.class);
+                play_mode.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(play_mode);
             }
         });
@@ -38,6 +39,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent rating = new Intent(Menu.this,Rating.class);
+                rating.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(rating);
             }
         });
@@ -46,6 +48,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent introduction  = new Intent(Menu.this,Introduction.class);
+                introduction.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(introduction );
             }
         });

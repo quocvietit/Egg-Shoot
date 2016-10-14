@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
     tools:context="com.example.newworld.eggshoot.Menu">
 
     <Button
@@ -16,7 +17,11 @@
         android:text="CHƠI"
         android:id="@+id/button_Choi"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_radius"
+        android:width="150dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorButtonText" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -24,9 +29,14 @@
         android:layout_height="wrap_content"
         android:text="XẾP HẠNG"
         android:id="@+id/button_XepHang"
-        android:layout_below="@+id/button_Choi"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="47dp" />
+        android:layout_below="@id/button_Choi"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_radius"
+        android:width="150dp"
+        android:textColor="@color/colorButtonText"
+        android:textSize="25dp" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -34,7 +44,12 @@
         android:layout_height="wrap_content"
         android:text="GIỚI THIỆU"
         android:id="@+id/button_GioiThieu"
-        android:layout_below="@+id/button_XepHang"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp" />
+        android:layout_below="@id/button_XepHang"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_radius"
+        android:width="150dp"
+        android:textColor="@color/colorButtonText"
+        android:textSize="25dp" />
 </RelativeLayout>

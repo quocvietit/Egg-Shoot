@@ -13,12 +13,16 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
+                <data android:name="android.content.Intent.FLAG_ACTIVITY_NO_ANIMATION" />
             </intent-filter>
         </activity>
         <activity android:name=".PlayMode" />
         <activity android:name=".Level" />
         <activity android:name=".Rating" />
-        <activity android:name=".Introduction"></activity>
+        <activity android:name=".Introduction" />
+        <activity android:name=".Setting" />
+        <activity android:name=".PauseGame"></activity>
     </application>
 
 </manifest>

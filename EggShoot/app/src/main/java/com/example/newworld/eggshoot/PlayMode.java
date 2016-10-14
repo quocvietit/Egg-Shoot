@@ -1,6 +1,7 @@
 package com.example.newworld.eggshoot;
 
 import android.content.Intent;
+import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,15 +28,27 @@ public class PlayMode extends AppCompatActivity {
         button_CoDien.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent play = new Intent(PlayMode.this, Level.class);
+                Intent level = new Intent(PlayMode.this, Level.class);
+                level.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(level);
             }
         });
 
         button_ThoiGian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent play = new Intent(PlayMode.this, Level.class);
+                Intent level = new Intent(PlayMode.this, Level.class);
+                level.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(level);
             }
         });
     }
+    
+    @Override
+    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
+        super.onCreate(savedInstanceState, persistentState);
+        getActionBar().setDisplayHomeAsUpEnabled(false);
+    }
+
+
 }

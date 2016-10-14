@@ -19,5 +19,10 @@ public class Play extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.play);
+
+
+
+
+
     }
 }
