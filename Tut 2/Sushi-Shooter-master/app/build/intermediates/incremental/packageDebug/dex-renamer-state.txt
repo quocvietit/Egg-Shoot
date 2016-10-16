@@ -1,7 +1,0 @@
-#Sat Oct 15 10:28:56 ICT 2016
-base.0=C\:\\Users\\admin\\Documents\\GitHub\\Egg-Shoot\\Tut 2\\Sushi-Shooter-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1e4cba594fb04bacf6719349ecc65d071e99fc4e
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\admin\\Documents\\GitHub\\Egg-Shoot\\Tut 2\\Sushi-Shooter-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_91eee7dfd0ece9babd44362866fb28785e3a8cf5\\classes.dex
-base.1=C\:\\Users\\admin\\Documents\\GitHub\\Egg-Shoot\\Tut 2\\Sushi-Shooter-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_91eee7dfd0ece9babd44362866fb28785e3a8cf5
-file.0=C\:\\Users\\admin\\Documents\\GitHub\\Egg-Shoot\\Tut 2\\Sushi-Shooter-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1e4cba594fb04bacf6719349ecc65d071e99fc4e\\classes.dex
