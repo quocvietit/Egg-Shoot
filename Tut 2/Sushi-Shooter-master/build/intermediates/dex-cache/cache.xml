@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin\Documents\GitHub\Egg-Shoot\Tut 2\Sushi-Shooter-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bb5ab4c4b9d65159526cf0b471ad30694f49ea1c">
+        <dex dex="C:\Users\admin\Documents\GitHub\Egg-Shoot\Tut 2\Sushi-Shooter-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1e4cba594fb04bacf6719349ecc65d071e99fc4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin\Documents\GitHub\Egg-Shoot\Tut 2\Sushi-Shooter-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cd719b3a49c063162228b388679f2f56e475403b">
+        <dex dex="C:\Users\admin\Documents\GitHub\Egg-Shoot\Tut 2\Sushi-Shooter-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_91eee7dfd0ece9babd44362866fb28785e3a8cf5\classes.dex" />
+    </item>
+
+</items>

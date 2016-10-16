@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="24"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="1615081210706"
+    token="-7825499384319010807"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="19380" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1607" />
+    <task
+        name="verifier"
+        duration="334" />
+
+    <artifact
+        location="C:\Users\admin\Documents\GitHub\Egg-Shoot\Tut 2\Sushi-Shooter-master\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1615081210706"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\admin\Documents\GitHub\Egg-Shoot\Tut 2\Sushi-Shooter-master\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
