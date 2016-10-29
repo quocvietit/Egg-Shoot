@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.newworld.eggshoot">
+    package="com.example.newworld.eggshootdemo">
 
     <application
         android:allowBackup="true"
@@ -13,16 +13,13 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-
-                <data android:name="android.content.Intent.FLAG_ACTIVITY_NO_ANIMATION" />
             </intent-filter>
         </activity>
         <activity android:name=".PlayMode" />
         <activity android:name=".Level" />
         <activity android:name=".Rating" />
         <activity android:name=".Introduction" />
-        <activity android:name=".Setting" />
-        <activity android:name=".PauseGame"></activity>
+        <activity android:name=".Play"></activity>
     </application>
 
 </manifest>
